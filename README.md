@@ -12,7 +12,7 @@ authentication.log = in this file contains user authentication events for exampl
 suspicious_ips.txt = it has a list of ip address provided with  dataset for investigation.
 README.txt  = in this file it has the instructions  that are supplied with the dataset
 
-## Requirments
+## Requirements
 
 - Python 3
 - no external libaries are needed
@@ -50,7 +50,7 @@ Low: less than 20  failed login attempts , with less than 5 fewer account lockou
 
 ## Output
 
-The program display  the analysis results in the terminal  and creates a file called investigation.txt. this report  contains  firewall  statistics, authentication results, calculated security risk level and important security observations.
+The program display  the analysis results in the terminal  and creates a file called investigation_report.txt. this report  contains  firewall  statistics, authentication results, calculated security risk level and important security observations.
 
 ## Error handling
 
